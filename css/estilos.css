@@ -1,0 +1,419 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html{
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+}
+
+a:visited{
+       color:inherit;
+      
+  
+}
+
+body {
+
+  background-color: black;
+
+ 
+}
+
+   .encabezado {
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+    
+
+}
+
+.encabezado-titulo{
+font-size: 100px;
+text-align: center;
+
+}
+
+.navegacion-index{
+
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.navegacion-index li{
+  display: inline;
+  margin-left: 30px;
+  margin-right: 30px;
+  list-style: none;
+color: goldenrod;
+}
+
+
+  .navegacion ul  {
+  text-align: center;
+  
+    color: gold;
+    list-style: none;
+    }
+    
+    .navegacion li {
+      display: inline; 
+      margin: 10px 25px 0px 25px;
+      margin-left: 90px;
+      padding-left: 5px;
+      padding-right: 0px;
+      font-size: 40px;
+     }
+
+   
+     .header-general {
+      position: sticky;
+      top: 0;
+      background-color: black;
+      border-bottom: 5px solid gold;
+    }
+     
+  
+  .formulario li {
+    border: 1px solid black ;
+    display: inline-block;
+    }
+
+
+    .cajalogo {
+      text-align: center;
+
+      
+     }
+ 
+     
+     .buscador{
+         text-align: center;
+         
+
+  }
+
+.footer{
+  margin: 30px;
+}
+.footer p {
+  display: inline;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+
+/* estilos html contactos */
+
+
+/* en el box , un mapa con la ubicacion  */
+/*
+#titulocontacto{
+  font-size: 130px;
+}
+*/
+
+.caja-mapa{
+  
+  text-align: center;
+  align-items: center;
+
+}
+
+.caja-mapa-img {
+  margin-top: 5px ;
+  margin-bottom: 5px;
+
+}
+
+.redes{
+ font-size: 40px;
+  text-align: center;
+ 
+}
+.redes li{
+  display: inline-block;
+  border: 3px outset gold;
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  
+}
+
+
+.lista1{
+  
+  height: 300px;
+  width: 300px;
+  font-size: 60px;
+  margin-top: 100px;
+  }
+
+
+
+.titulomapa{
+  
+  
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+
+ .imagenmapa{
+  
+ padding: 20px;
+ margin-top: 50px;
+ margin-left: 36%;
+ border: 2px solid white; 
+ height: 500px;
+ width: 500px;
+
+}
+
+
+
+
+/* estilo de productos*/
+
+.productos  {
+  margin-top: 50px;
+ margin-left: 10px;
+  margin-bottom: 100px;
+  }
+
+
+  .categoria{
+    background-color: black;
+    font-size: 30px;
+    margin:10px;
+    margin-top: 30px;
+    border: 1px solid white;
+    }
+
+
+
+
+  .categoria li {
+  border: 2px solid white;
+  width: 150px;
+  height: 50px;
+  margin-left: 120px;
+  margin-right: 30px;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+/* Lista de items ,  */
+
+
+  .itema {
+
+  margin-bottom: 30px;
+  margin-top: 30;
+  }
+
+.itema div{
+border: 2px solid white;
+  display: inline-block;
+  margin: 10px;
+  height: 240px;
+  width: 240px;  
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+ }
+
+
+.itemb{
+  
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+  .itemb div {
+   border: 2px solid white;
+  display: inline-block;
+  margin: 10px;
+  height: 240px;
+  width: 240px; 
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  }
+
+
+.descuentos{
+  font-size: 60px;
+  color: gold;
+  border: 10px outset white;
+  margin: 20px;
+}
+
+  .itemc div {
+    border: 2px solid white;
+    display: inline-block;
+    margin: 10px;
+    height: 240px;
+    width: 240px; 
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    border: outset 5px goldenrod
+  }
+  
+  .itemc {
+    
+    overflow:auto;
+    height: 300px;
+    border: 10px inset gold
+
+  }
+ 
+
+
+  .Itemd div {
+    border: 2px solid white;
+    display: inline-block;
+    margin: 10px;
+    height: 240px;
+   width: 240px;  
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+  }
+
+  .descripcionproducto{
+    text-align: center;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+ 
+
+/* Conocenos */
+
+.historia{
+  text-align: center;
+  margin-top: 50px;
+}
+.historia h3 {
+  margin: 20px;
+  font-size: 50px;
+  
+
+}
+
+.galeria  { 
+  border: 5px outset gold;
+  align-items: center;
+  margin-top: 50px;
+ 
+}
+
+
+.galeria-img {
+  display: inline-block;
+  border: 10px outset gold;
+  margin: 30px;
+  
+  width: 200px;
+  height: 200px;
+  
+
+}
+.caja-propuesta h5 {
+  font-size: 60px;
+}
+.caja-propuesta {
+  text-align: center;
+  font-size: 45px;
+  border: 5px solid white;
+  height: 250px ;
+  width: 100%;
+  margin-top: 15px;
+  
+}
+
+.caja-propuesta div {
+  align-items: center;
+  margin:50px;
+  margin-bottom: 15px;
+
+}
+
+/* busqueda laboral */
+
+.titulosformulario{
+
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+ 
+}
+.titulosformulario h3 {
+  font-size: 60px;
+  margin:25px;
+}
+
+.caja-formulario{
+  border: 10px solid white ;
+  margin-top: 30px ;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+
+}
+
+.caja-formulario h5 {
+text-align: center;
+font-size: 30px;
+margin:20px;
+
+}
+
+.formulario1 {
+
+  margin: 10px;
+  
+font-size:25px;
+ 
+}
+
+.formulario2{
+  margin: 10px;
+  font-size: 25px;
+  
+}
+
+.mensaje-final{
+  border: 5px solid white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+.box-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  margin-top: 100px; 
+  margin-bottom: 100px;
+  
+}
+.video{
+  border: 10px outset gold;
+}
+
