@@ -417,3 +417,55 @@ font-size:25px;
   border: 10px outset gold;
 }
 
+@media screen and (min-width: 600px){
+  
+}
+@media screen and (max-width: 600px){
+  .header-general{
+  
+    
+  }
+  .header-general h1 {
+    font-size: 50px;
+  }
+  .redes{
+    margin: 0px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .redes li {
+    margin: 0;
+    font-size: 30px;
+    
+  }
+  .titulomapa h3{
+    font-size: 20px;
+  }
+
+  .titulomapa p{
+    font-size: 18px;
+
+  }
+  .titulomapa{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+  }
+  .cajamapa{
+
+  margin:0;
+  }
+  .caja-propuesta{
+    font-size: 30px;
+    border: none;
+    
+  }
+
+  .caja-propuesta h5{
+  font-size: 25px;
+  }
