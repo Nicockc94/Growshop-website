@@ -417,14 +417,12 @@ font-size:25px;
   border: 10px outset gold;
 }
 
-@media screen and (min-width: 600px){
-  
-}
+
 @media screen and (max-width: 600px){
   .header-general{
   
-    
   }
+  
   .header-general h1 {
     font-size: 50px;
   }
@@ -450,7 +448,7 @@ font-size:25px;
 
   }
   .titulomapa{
-    background-color: brown;
+   
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -468,4 +466,26 @@ font-size:25px;
 
   .caja-propuesta h5{
   font-size: 25px;
+  }
+}
+  @media screen and (min-width: 1020px){
+ .header-general{
+  background-color: greenyellow;
+ }
+ .redes{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+ }
+ 
+ .youtube{
+  grid-column: span 3/4
+  
+ }
+ 
+  
+    
+  }
+  .footer{
+    text-align: center;
   }
