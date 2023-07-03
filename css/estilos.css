@@ -424,6 +424,7 @@ font-size:25px;
 
 @media screen and (max-width: 600px){
   .header-general{
+    background-color: aqua;
   
   }
   
@@ -444,6 +445,8 @@ font-size:25px;
 
     
   }
+
+  
   .titulomapa h3{
     font-size: 20px;
   }
@@ -475,45 +478,90 @@ font-size:25px;
   .footer{
     font-size: 13px;
   }
+
+
+  /* CONOCENOS */                                                       /* CONOCENOS */
+
+.galeria div{
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+  }
+.galeria{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr ;
+  height: 700px;
+  gap: 5px;
+  
+  }
+
+.galeria-img-2{
+  display :none;
+  }
+
+.galeria-img-3{
+  display :none;
+  }
+
+.galeria-img-4{
+  display :none;
+  }
+
+.galeria-img-5{
+  display :none;
+  }
+
+.galeria-img-6{
+  display :none;
+  }
+.galeria-img-1{
+  display :none;
+  }
+
+
+
+
 }
   @media screen and (min-width: 1024px){
- .header-general{
+
   
- }
  .redes{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   
- }
+  }
 
  .redes div {
   background-color: grey;
   margin:5px;
- }
+  }
  
  .youtube{
   grid-column: span 3/4
   
- }
+  }
  
   
     
-  }
+  
   .footer{
     text-align: center;
 
   }
 
+
+/* CONOCENOS  */
+
+
   .galeria{
-    margin: 0px;
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    background-color: antiquewhite;
-    width: 100%;
-    margin: 0px;
-    align-items: center;
-    padding: 0px;
+       display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      height: 920px;
+      text-align: center;
+      gap: 5px;
     
   }
   .galeria-img{
@@ -522,6 +570,8 @@ font-size:25px;
     padding: 0px;
 
 
+
+  }
 
   }
   @media only screen and (min-width: 600px) and (max-width: 1024px) {
@@ -558,5 +608,31 @@ font-size:25px;
       
     }
 
+    /* CONOCENOS */
+    .galeria{
+      
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      height: 920px;
+      text-align: center;
+      gap: 5px;
+      }
+    .galeria-img-5{
+      display :none;
+      }
     
-}
+    .galeria-img-6{
+      display :none;
+      }
+    .galeria-img-1{
+      display :none;
+      }
+
+     .galeria div {
+      height: 300px;
+      width: 300px;
+      background-color: blueviolet;
+      }
+    
+      }
