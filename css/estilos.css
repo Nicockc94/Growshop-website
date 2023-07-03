@@ -432,15 +432,16 @@ font-size:25px;
   }
   .redes{
     margin: 0px;
-    
     display:flex;
     flex-direction: column;
     justify-content: center;
     
   }
-  .redes li {
-    margin: 0;
+  .redes div{
+    margin:5px;
     font-size: 30px;
+    background-color: grey;;
+
     
   }
   .titulomapa h3{
@@ -459,7 +460,6 @@ font-size:25px;
 
   }
   .cajamapa{
-
   margin:0;
   }
   .caja-propuesta{
@@ -471,6 +471,10 @@ font-size:25px;
   .caja-propuesta h5{
   font-size: 25px;
   }
+
+  .footer{
+    font-size: 13px;
+  }
 }
   @media screen and (min-width: 1024px){
  .header-general{
@@ -480,6 +484,12 @@ font-size:25px;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  
+ }
+
+ .redes div {
+  background-color: grey;
+  margin:5px;
  }
  
  .youtube{
@@ -516,16 +526,37 @@ font-size:25px;
   }
   @media only screen and (min-width: 600px) and (max-width: 1024px) {
     .header-general{
-      background-color: red;
+      
     }
     .redes{
       display: grid;
       grid-template-columns: 1fr 1fr ;
       grid-template-rows: 1fr 1fr;
     }
-    .redes ol {
-      margin-left: 0px;
-
-  
+    .caja-propuesta{
+      font-size: 30px;
+      border: none;
+      
     }
+  
+    .caja-propuesta h5{
+    font-size: 35px;
+    }
+    .redes div{
+      background-color: grey;
+      margin :5px;
   }
+  .footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    gap:5px; 
+  }
+  
+    .ultimop {
+      grid-column: 1/3;
+      
+    }
+
+    
+}
