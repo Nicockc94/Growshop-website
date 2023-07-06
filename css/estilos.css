@@ -13,105 +13,86 @@ html{
 }
 
 a:visited{
-       color:inherit;
-      
-  
+       color:inherit;        
 }
 
 body {
-
-  background-color: black;
-
- 
+ background-color: black;
 }
 
-   .encabezado {
-    background-color: black;
-    color: white;
-    text-align: center;
-   
-    
-
+.encabezado {
+background-color:black;
+color:white;
+text-align: center;
 }
 
 .encabezado-titulo{
 font-size: 100px;
 text-align: center;
-
 }
 
 .navegacion-index{
-
-  text-align: center;
-  font-size: 40px;
-  
+text-align: center;
+font-size: 40px;
 }
 
 .navegacion-index li{
-  display: inline;
-  margin-left: 30px;
-  margin-right: 30px;
-  list-style: none;
+display: inline;
+margin-left: 30px;
+margin-right: 30px;
+list-style: none;
 color: goldenrod;
 }
 
 
-  .navegacion ul  {
-  text-align: center;
-  
-    color: gold;
-    list-style: none;
-    }
+.navegacion ul{
+text-align: center;  
+color: gold;
+list-style: none;
+}
     
-    .navegacion li {
-      display: inline; 
-      margin: 10px 25px 0px 25px;
-      margin-left: 90px;
-      padding-left: 5px;
-      padding-right: 0px;
-      font-size: 40px;
-     }
+.navegacion li{
+display: inline; 
+margin: 10px 25px 0px 25px;
+margin-left: 90px;
+padding-left: 5px;
+padding-right: 0px;
+font-size: 40px;
+}
 
    
-     .header-general {
-      position: sticky;
-      top: 0;
-      background-color: black;
-      border-bottom: 5px solid gold;
-    }
+.header-general{
+position: sticky;
+top:0;
+background-image: url(../assets/banner2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
      
-  
-  .formulario li {
-    border: 1px solid black ;
-    display: inline-block;
-    }
+.formulario li {
+border: 1px solid black ;
+display: inline-block;
+}
 
-
-    .cajalogo {
-      text-align: center;
-
-      
-     }
+.cajalogo {
+text-align: center;      
+}
  
-     
-     .buscador{
-         text-align: center;
-         
-
-  }
+.buscador{
+text-align: center;         
+}
 
 .footer{
-  margin: 30px;
-  
-  border-top: 5px solid yellow;
-  
+margin: 30px;
+border-top: 5px solid green;
 }
 .footer p {
-  display: inline;
-  margin-left: 30px;
-  margin-right: 30px;
-  text-align: center;
-  margin-top: 5px solid yellow;
+display: inline;
+margin-left: 30px;
+margin-right: 30px;
+text-align: center;
+margin-top: 5px solid green;
 }
 
 
@@ -127,26 +108,23 @@ color: goldenrod;
 
 .caja-mapa{
   
-  text-align: center;
-  align-items: center;
-
+ text-align: center;
+ align-items: center;
 }
 
 .caja-mapa-img {
-  margin-top: 5px ;
-  margin-bottom: 5px;
-
+ margin-top: 5px ;
+ margin-bottom: 5px;
 }
 
 .redes{
-
  text-align: center;
- align-items: center;
- 
+ align-items: center; 
 }
+
 .redes div img{
-  margin-top:15px;
-  margin-bottom:15px;
+ margin-top:15px;
+ margin-bottom:15px;
   
 }
 
@@ -316,7 +294,7 @@ border: 2px solid white;
 }
 
 .galeria  { 
-  border: 5px outset gold;
+  border: 5px outset green;
   align-items: center;
   margin-top: 50px;
  
@@ -325,7 +303,7 @@ border: 2px solid white;
 
 .galeria-img {
   display: inline-block;
-  border: 10px outset gold;
+  border: 10px outset green;
   background-color: blueviolet;
   width: 350px;
   height: 350px;
@@ -336,7 +314,7 @@ border: 2px solid white;
   font-size: 60px;
 }
 .caja-propuesta {
-  background-image:url(../assets/icono.redes/banner.jpg);
+  background-image:url(../assets/conocenos/banner\ trabajo.webp);
   text-align: center;
   font-size: 45px;
   height: 250px ;
@@ -349,25 +327,23 @@ border: 2px solid white;
   align-items: center;
   margin:50px;
   margin-bottom: 15px;
-
 }
 
 /* busqueda laboral */
 
 .titulosformulario{
-
   font-size: 25px;
   text-align: center;
-  margin-top: 30px;
- 
+  margin-top: 30px; 
 }
+
 .titulosformulario h3 {
   font-size: 60px;
   margin:25px;
 }
 
 .caja-formulario{
-  border: 10px solid white ;
+  border:10px solid white;
   margin-top: 30px ;
   margin-bottom: 30px;
   padding-bottom: 20px;
@@ -375,24 +351,20 @@ border: 2px solid white;
 }
 
 .caja-formulario h5 {
-text-align: center;
+text-align:center;
 font-size: 30px;
 margin:20px;
 
 }
 
 .formulario1 {
-
-  margin: 10px;
-  
+margin: 10px;
 font-size:25px;
- 
-}
+ }
 
 .formulario2{
   margin: 10px;
-  font-size: 25px;
-  
+  font-size: 25px;  
 }
 
 .mensaje-final{
@@ -403,29 +375,25 @@ font-size:25px;
   padding-bottom: 30px;
 }
 
-
 .box-video{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: aqua;
   margin-top: 100px; 
-  margin-bottom: 100px;
-  
+  margin-bottom: 100px;  
 }
+
 .video{
-  border: 10px outset gold;
+  border: 10px outset greenyellow;
 }
 
 
 @media screen and (max-width: 600px){
-  .header-general{
-    background-color: aqua;
-  
-  }
-  
+ 
   .header-general h1 {
     font-size: 50px;
+    background-color: blue;
   }
   .redes{
     margin: 0px;
@@ -437,13 +405,10 @@ font-size:25px;
   .redes div{
     margin:5px;
     font-size: 30px;
-    background-color: grey;;
-    width: 100%;
-
-    
+    background-color: grey;
+    width: 100%;  
   }
 
-  
   .titulomapa h3{
     font-size: 20px;
   }
@@ -453,11 +418,9 @@ font-size:25px;
 
   }
   .titulomapa{
-   
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
   }
   .cajamapa{
     
@@ -482,41 +445,50 @@ font-size:25px;
   /* CONOCENOS */                                                       /* CONOCENOS */
 
 .galeria div{
-  background-color: aqua;
-  height: 100%;
-  width: 100%;
+  
+  height: 190px;
+  width: 230px;
+  
+  
   }
 .galeria{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr ;
-  height: 700px;
-  gap: 5px;
+  grid-template-rows: 1fr 1fr;
   
-  }
+  gap: 5px;
+  place-items:center; 
+  background-color:green;  
 
+  }
 .galeria-img-2{
   display :none;
   }
-
 .galeria-img-3{
   display :none;
   }
-
 .galeria-img-4{
   display :none;
   }
-
 .galeria-img-5{
   display :none;
   }
-
 .galeria-img-6{
   display :none;
   }
 .galeria-img-1{
   display :none;
   }
+.galeria-img-7{
+    display :none;
+  }
+.galeria-img-8{
+  display:none;
+  }
+.galeria div {
+  width:100%;
+  height:100%;
+}
 
 
 
@@ -554,27 +526,31 @@ font-size:25px;
 /* CONOCENOS  */
 
 
-  .galeria{
-       display:grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      height: 920px;
-      text-align: center;
-      gap: 5px;
-    
+.galeria{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 920px;
+  text-align: center;
+  gap:5px;
+  
   }
-  .galeria-img{
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-
-
-
+.galeria div{
+  justify-content: center;
+   width: 100%;
+   height:100%;
+  }
+  .galeria-img-5{
+    display: none;
+  }
+  .galeria-img-12{
+    grid-column: span 4/5;
   }
 
   }
   @media only screen and (min-width: 600px) and (max-width: 1024px) {
     .header-general{
+      
       
     }
     .redes{
@@ -627,11 +603,11 @@ font-size:25px;
     .galeria-img-1{
       display :none;
       }
-
+     
      .galeria div {
       height: 300px;
       width: 300px;
-      background-color: blueviolet;
+      
       }
     
       }
