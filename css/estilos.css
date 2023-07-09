@@ -5,10 +5,13 @@
     box-sizing: border-box;
 
 }
-
+body
+{
+  font-family:'Bangers', cursive ;!important
+}
 
 html{
-    font-family: 'Tilt Prism', cursive;
+  font-family: 'Bangers', cursive; !important
     color: white;
 }
 
@@ -24,6 +27,7 @@ body {
 background-color:black;
 color:white;
 text-align: center;
+
 }
 
 .encabezado-titulo{
@@ -85,14 +89,14 @@ text-align: center;
 
 .footer{
 margin: 30px;
-border-top: 5px solid green;
+;
 }
 .footer p {
 display: inline;
 margin-left: 30px;
 margin-right: 30px;
 text-align: center;
-margin-top: 5px solid green;
+;
 }
 
 
@@ -278,7 +282,6 @@ border: 2px solid white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
- 
 
 /* Conocenos */
 
@@ -290,21 +293,17 @@ border: 2px solid white;
   margin: 20px;
   font-size: 50px;
   
-
 }
 
 .galeria  { 
-  border: 5px outset green;
+  
   align-items: center;
-  margin-top: 50px;
- 
+  margin-top: 50px; 
 }
-
 
 .galeria-img {
   display: inline-block;
-  border: 10px outset green;
-  background-color: blueviolet;
+  
   width: 350px;
   height: 350px;
   
@@ -393,14 +392,13 @@ font-size:25px;
  
   .header-general h1 {
     font-size: 50px;
-    background-color: blue;
+    
   }
   .redes{
     margin: 0px;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;  
   }
   .redes div{
     margin:5px;
@@ -444,22 +442,26 @@ font-size:25px;
 
   /* CONOCENOS */                                                       /* CONOCENOS */
 
+  .galeria div img {
+    border-radius: 15%;
+    width: 100%;
+    height: 100%;
+   
+  }
 .galeria div{
   
   height: 190px;
   width: 230px;
-  
+  background-color: rgb(16, 27, 16);
+  text-align: center;
   
   }
 .galeria{
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  
   gap: 5px;
   place-items:center; 
-  background-color:green;  
-
   }
 .galeria-img-2{
   display :none;
@@ -488,9 +490,8 @@ font-size:25px;
 .galeria div {
   width:100%;
   height:100%;
+  background-color: ;
 }
-
-
 
 
 }
@@ -503,7 +504,7 @@ font-size:25px;
   grid-template-rows: 1fr 1fr;
   
   }
-
+  
  .redes div {
   background-color: grey;
   margin:5px;
@@ -511,43 +512,51 @@ font-size:25px;
  
  .youtube{
   grid-column: span 3/4
-  
   }
- 
-  
-    
-  
-  .footer{
-    text-align: center;
+
+ .footer{
+  text-align: center;
 
   }
 
 
-/* CONOCENOS  */
+/*  ESTILOS DE  CONOCENOS MIN 1024PX */
 
 
 .galeria{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  height: 920px;
-  text-align: center;
-  gap:5px;
+ background-color: black;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(4, 1fr);
+ width: 100%;
+ gap: 5px;
+ 
+}
+ .galeria div{
+  background-color:rgb(16, 27, 16);
+  width: 100%;
+  height: 100%;
+  text-align:center;
   
-  }
-.galeria div{
-  justify-content: center;
-   width: 100%;
-   height:100%;
-  }
-  .galeria-img-5{
-    display: none;
-  }
-  .galeria-img-12{
-    grid-column: span 4/5;
-  }
+ }
+.galeria div img {
+  border-radius: 10%;
+ width:100%;
+ height: 100%;
 
-  }
+}
+
+.galeria-img-5{
+  grid-column: span 4/5;
+
+}
+.galeria-img-10{
+  grid-column: span 2/4;
+}
+
+
+}
+  
   @media only screen and (min-width: 600px) and (max-width: 1024px) {
     .header-general{
       
@@ -583,9 +592,11 @@ font-size:25px;
       
     }
 
-    /* CONOCENOS */
+    /* ESTILOS DE CONOCENOS */
+    
+    
+    
     .galeria{
-      
       display:grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
@@ -611,3 +622,9 @@ font-size:25px;
       }
     
       }
+
+
+
+
+
+
