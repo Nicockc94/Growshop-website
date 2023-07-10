@@ -1,113 +1,105 @@
-*
-{
+
+/*Reset*/
+
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ }
 
+
+body{
+  font-family:'Bangers', cursive ;!important
 }
 
-
 html{
-    font-family: 'Tilt Prism', cursive;
+  font-family: 'Bangers', cursive; !important
     color: white;
 }
 
 a:visited{
-       color:inherit;
-      
-  
+  color:inherit;       
 }
 
 body {
-
-  background-color: black;
-
- 
+ background-color: black;
 }
 
-   .encabezado {
-    background-color: black;
-    color: white;
-    text-align: center;
-   
-    
+.encabezado {
+background-color:black;
+color:white;
+text-align: center;
 
 }
 
 .encabezado-titulo{
 font-size: 100px;
 text-align: center;
-
 }
 
 .navegacion-index{
-
-  text-align: center;
-  font-size: 40px;
-  
+text-align: center;
+font-size: 40px;
 }
 
 .navegacion-index li{
-  display: inline;
-  margin-left: 30px;
-  margin-right: 30px;
-  list-style: none;
+display: inline;
+margin-left: 30px;
+margin-right: 30px;
+list-style: none;
 color: goldenrod;
 }
 
 
-  .navegacion ul  {
-  text-align: center;
-  
-    color: gold;
-    list-style: none;
-    }
+.navegacion ul{
+text-align: center;  
+color: gold;
+list-style: none;
+}
     
-    .navegacion li {
-      display: inline; 
-      margin: 10px 25px 0px 25px;
-      margin-left: 90px;
-      padding-left: 5px;
-      padding-right: 0px;
-      font-size: 40px;
-     }
+.navegacion li{
+display: inline; 
+margin: 10px 25px 0px 25px;
+margin-left: 90px;
+padding-left: 5px;
+padding-right: 0px;
+font-size: 40px;
+}
 
    
-     .header-general {
-      position: sticky;
-      top: 0;
-      background-color: black;
-      border-bottom: 5px solid gold;
-    }
+.header-general{
+position: sticky;
+top:0;
+background-image: url(../assets/banner2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
      
-  
-  .formulario li {
-    border: 1px solid black ;
-    display: inline-block;
-    }
+.formulario li {
+border: 1px solid black ;
+display: inline-block;
+}
 
-
-    .cajalogo {
-      text-align: center;
-
-      
-     }
+.cajalogo {
+text-align: center;      
+}
  
-     
-     .buscador{
-         text-align: center;
-         
-
-  }
+.buscador{
+text-align: center;         
+}
 
 .footer{
-  margin: 30px;
+margin: 30px;
+;
 }
 .footer p {
-  display: inline;
-  margin-left: 30px;
-  margin-right: 30px;
-  text-align: center;
+display: inline;
+margin-left: 30px;
+margin-right: 30px;
+text-align: center;
+;
 }
 
 
@@ -115,40 +107,29 @@ color: goldenrod;
 
 
 /* en el box , un mapa con la ubicacion  */
-/*
-#titulocontacto{
-  font-size: 130px;
-}
-*/
+
 
 .caja-mapa{
   
-  text-align: center;
-  align-items: center;
-
+ text-align: center;
+ align-items: center;
 }
 
 .caja-mapa-img {
-  margin-top: 5px ;
-  margin-bottom: 5px;
-
+ margin-top: 5px ;
+ margin-bottom: 5px;
 }
 
 .redes{
- font-size: 40px;
-  text-align: center;
- 
+ text-align: center;
+ align-items: center; 
 }
-.redes li{
-  display: inline-block;
-  border: 3px outset gold;
-  margin: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
 
+.redes div img{
+ margin-top:15px;
+ margin-bottom:15px;
   
 }
-
 
 .lista1{
   
@@ -158,87 +139,124 @@ color: goldenrod;
   margin-top: 100px;
   }
 
-
-
 .titulomapa{
-  
   
   text-align: center;
   font-size: 40px;
   margin-bottom: 40px;
 }
 
-
- .imagenmapa{
-  
- padding: 20px;
- margin-top: 50px;
- margin-left: 36%;
- border: 2px solid white; 
- height: 500px;
- width: 500px;
+.imagenmapa{
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 36%;
+  border: 2px solid white; 
+  height: 500px;
+  width: 500px;
 
 }
 
-
-
-
 /* estilo de productos*/
 
-.productos  {
+.productos{
   margin-top: 50px;
- margin-left: 10px;
+  margin-left: 10px;
   margin-bottom: 100px;
   }
 
 
-  .categoria{
-    background-color: black;
-    font-size: 30px;
-    margin:10px;
-    margin-top: 30px;
-    border: 1px solid white;
+ .categoria{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    justify-content: space-around;
+    margin-top: 2rem;
+    list-style: none;
     }
 
-
-
-
-  .categoria li {
-  border: 2px solid white;
-  width: 150px;
-  height: 50px;
-  margin-left: 120px;
-  margin-right: 30px;
-  display: inline-block;
-  padding-left: 30px;
+  .categoria li button {
+    
+    font-size: 1.5rem;
+    background-color:rgb(126,135,53);
+    border-end-start-radius: 20%;
+    border-start-end-radius: 20%;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: 4px outset #596221 ;
+  
 }
 
-/* Lista de items ,  */
+  /* Lista de items , seran modificados despues de esta entrega , la forma ideal es en forma de cards  */      
 
-
-  .itema {
-
-  margin-bottom: 30px;
-  margin-top: 30;
+  .productos-a-img1 {
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+  .productos-a-img2{
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
-.itema div{
-border: 2px solid white;
-  display: inline-block;
-  margin: 10px;
-  height: 240px;
-  width: 240px;  
-  text-align: center;
-  margin-bottom: 70px;
-  margin-top: 50px;
- }
+  .productos-a div img{
+    border-end-start-radius:  20%;
+    border-start-end-radius:  25%;
+    width: 100%;
+  }
+  .productos-a div {
+    display: flex;
+    row-gap:2px; 
+    background-color: white;
+    width:160px;
+    justify-content: center;
+    border-end-start-radius:  20%;
+    border-start-end-radius:  20%;
+    border: outset 5px rgb(126,135,53); 
+   }
+  .productos-a{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   }
 
+   /*precios a correjir y unir con los items */
 
-.itemb{
-  
+   .caja-precio ul{
+    list-style: none;    
+   }
+   .caja-precio{
+    display:flex;
+    flex-direction: column;
+    border: 5px outset rgb(126,135,53);
+    width: 150px;
+    margin-top: 15px;
+    border-end-end-radius: 20%;
+    border-start-start-radius: 20%;
+    
+   }
+
+   .caja-precio button{
+    text-align: center;
+    margin-top: 10px;
+    border-end-end-radius: 20%;
+    border-start-start-radius: 20%;
+    border: 5px outset rgb(126,135,53);
+    padding: 3px;
+   }
+
+  .precios h5 {
+    
+    font-size: 15px;
+    text-align: center;
+  }
+  .precios {
+    font-size: 15px;
+    display:flex;
+    justify-content: space-around;
+  }
+  .itemb{ 
   margin-bottom: 30px;
   margin-top: 30px;
-}
+  }
 
 
   .itemb div {
@@ -258,7 +276,7 @@ border: 2px solid white;
   color: gold;
   border: 10px outset white;
   margin: 20px;
-}
+  }
 
   .itemc div {
     border: 2px solid white;
@@ -283,23 +301,22 @@ border: 2px solid white;
 
 
   .Itemd div {
-    border: 2px solid white;
-    display: inline-block;
-    margin: 10px;
-    height: 240px;
-   width: 240px;  
-    text-align: center;
-    margin-bottom: 70px;
-    margin-top: 50px;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 10px;
+  height: 240px;
+  width: 240px;  
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
   }
 
   .descripcionproducto{
-    text-align: center;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
- 
 
 /* Conocenos */
 
@@ -307,28 +324,23 @@ border: 2px solid white;
   text-align: center;
   margin-top: 50px;
 }
+
 .historia h3 {
   margin: 20px;
   font-size: 50px;
   
-
 }
 
 .galeria  { 
-  border: 5px outset gold;
+  
   align-items: center;
-  margin-top: 50px;
- 
+  margin-top: 50px; 
 }
 
-
 .galeria-img {
-  display: inline-block;
-  border: 10px outset gold;
-  margin: 30px;
-  
-  width: 200px;
-  height: 200px;
+ display: inline-block;  
+ width: 350px;
+ height: 350px;
   
 
 }
@@ -336,9 +348,9 @@ border: 2px solid white;
   font-size: 60px;
 }
 .caja-propuesta {
+  background-image:url(../assets/conocenos/banner\ trabajo.webp);
   text-align: center;
   font-size: 45px;
-  border: 5px solid white;
   height: 250px ;
   width: 100%;
   margin-top: 15px;
@@ -349,25 +361,23 @@ border: 2px solid white;
   align-items: center;
   margin:50px;
   margin-bottom: 15px;
-
 }
 
 /* busqueda laboral */
 
 .titulosformulario{
-
   font-size: 25px;
   text-align: center;
-  margin-top: 30px;
- 
+  margin-top: 30px; 
 }
+
 .titulosformulario h3 {
   font-size: 60px;
   margin:25px;
 }
 
 .caja-formulario{
-  border: 10px solid white ;
+  border:10px solid white;
   margin-top: 30px ;
   margin-bottom: 30px;
   padding-bottom: 20px;
@@ -375,24 +385,20 @@ border: 2px solid white;
 }
 
 .caja-formulario h5 {
-text-align: center;
+text-align:center;
 font-size: 30px;
 margin:20px;
 
 }
 
 .formulario1 {
-
-  margin: 10px;
-  
+margin: 10px;
 font-size:25px;
- 
-}
+ }
 
 .formulario2{
   margin: 10px;
-  font-size: 25px;
-  
+  font-size: 25px;  
 }
 
 .mensaje-final{
@@ -403,17 +409,262 @@ font-size:25px;
   padding-bottom: 30px;
 }
 
-
 .box-video{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: aqua;
   margin-top: 100px; 
-  margin-bottom: 100px;
+  margin-bottom: 100px;  
+}
+
+.video{
+  border: 10px outset greenyellow;
+}
+
+@media screen and (max-width: 600px){
+ 
+  .header-general h1 {
+    font-size: 50px;
+    
+  }
+  .redes{
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;  
+  }
+  .redes div{
+    margin:5px;
+    font-size: 30px;
+    background-color: grey;
+    width: 100%;  
+  }
+
+  .titulomapa h3{
+    font-size: 20px;
+  }
+
+  .titulomapa p{
+    font-size: 18px;
+
+  }
+  .titulomapa{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  }
+  .cajamapa{
+    
+  margin:0;
+  }
+  .caja-propuesta{
+    
+    font-size: 30px;
+    border: none;
+    
+  }
+
+  .caja-propuesta h5{
+  font-size: 25px;
+  }
+
+  .footer{
+    font-size: 13px;
+  }
+
+
+  /* CONOCENOS */                                                    
+
+  .galeria div img {
+    border-radius: 15%;
+    width: 100%;
+    height: 100%;
+   
+  }
+.galeria div{
+  
+  height: 190px;
+  width: 230px;
+  background-color: rgb(16, 27, 16);
+  text-align: center;
+  
+  }
+.galeria{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  place-items:center; 
+  }
+.galeria-img-2{
+  display :none;
+  }
+.galeria-img-3{
+  display :none;
+  }
+.galeria-img-4{
+  display :none;
+  }
+.galeria-img-5{
+  display :none;
+  }
+.galeria-img-6{
+  display :none;
+  }
+.galeria-img-1{
+  display :none;
+  }
+.galeria-img-7{
+    display :none;
+  }
+.galeria-img-8{
+  display:none;
+  }
+.galeria div {
+  width:100%;
+  height:100%;
+ 
+}
+
+
+}
+  @media screen and (min-width: 1024px){
+
+
+  
+ .redes{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+  }
+  
+ .redes div {
+  background-color: grey;
+  margin:5px;
+  }
+ 
+ .youtube{
+  grid-column: span 3/4
+  }
+
+ .footer{
+  text-align: center;
+
+  }
+
+
+/*  ESTILOS DE  CONOCENOS MIN 1024PX */
+
+
+.section-galeria{
+  display:flex;
+  justify-content: center;
   
 }
-.video{
-  border: 10px outset gold;
+/* el tamaño de las fotos no termina de encajar bien en las Box , pero sirven como imagenes de referencia para representar la idea */
+.galeria{
+ background-color: black;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(4, 1fr);
+ width: 85%;
+ gap: 10px;
+ 
 }
+ .galeria div{
+  background-color:rgb(16, 27, 16);
+  width: 100%;
+  height: 100%;
+  text-align:center;
+  
+ }
+.galeria div img {
+  border-radius: 10%;
+ width:100%;
+ height: 100%;
+
+}
+
+.galeria-img-5{
+  grid-column: span 4/5;
+
+}
+.galeria-img-10{
+  grid-column: span 2/4;
+}
+
+
+}
+  
+  @media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .header-general{
+        
+    }
+    .redes{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr;
+    }
+    .caja-propuesta{
+      font-size: 30px;
+      border: none;
+      
+    }
+
+    .caja-propuesta h5{
+    font-size: 35px;
+    }
+    .redes div{
+      background-color: grey;
+      margin :5px;
+    }
+   .footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    gap:5px; 
+    }
+  
+    .ultimop {
+      grid-column: 1/3;
+      
+    }
+
+    /* ESTILOS DE CONOCENOS */
+    
+    
+    
+    .galeria{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      height: 920px;
+      text-align: center;
+      gap: 5px;
+      }
+    .galeria-img-5{
+      display :none;
+      }
+    
+    .galeria-img-6{
+      display :none;
+      }
+    .galeria-img-1{
+      display :none;
+      }
+     
+     .galeria div {
+      height: 300px;
+      width: 300px;
+      
+      }
+    
+  }
+
+
+
+
+
 
