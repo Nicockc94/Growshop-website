@@ -1,12 +1,15 @@
-*
-{
+
+/*Reset*/
+
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ }
 
-}
-body
-{
+
+body{
   font-family:'Bangers', cursive ;!important
 }
 
@@ -16,7 +19,7 @@ html{
 }
 
 a:visited{
-       color:inherit;        
+  color:inherit;       
 }
 
 body {
@@ -104,11 +107,7 @@ text-align: center;
 
 
 /* en el box , un mapa con la ubicacion  */
-/*
-#titulocontacto{
-  font-size: 130px;
-}
-*/
+
 
 .caja-mapa{
   
@@ -132,7 +131,6 @@ text-align: center;
   
 }
 
-
 .lista1{
   
   height: 300px;
@@ -148,13 +146,13 @@ text-align: center;
   margin-bottom: 40px;
 }
 
- .imagenmapa{
- padding: 20px;
- margin-top: 50px;
- margin-left: 36%;
- border: 2px solid white; 
- height: 500px;
- width: 500px;
+.imagenmapa{
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 36%;
+  border: 2px solid white; 
+  height: 500px;
+  width: 500px;
 
 }
 
@@ -167,7 +165,7 @@ text-align: center;
   }
 
 
-  .categoria{
+ .categoria{
     display: flex;
     flex-direction: row;
     background-color:black;
@@ -243,7 +241,6 @@ text-align: center;
     border-start-start-radius: 20%;
     border: 5px outset rgb(126,135,53);
     padding: 3px;
- 
    }
 
   .precios h5 {
@@ -256,10 +253,10 @@ text-align: center;
     display:flex;
     justify-content: space-around;
   }
-.itemb{ 
+  .itemb{ 
   margin-bottom: 30px;
   margin-top: 30px;
-}
+  }
 
 
   .itemb div {
@@ -279,7 +276,7 @@ text-align: center;
   color: gold;
   border: 10px outset white;
   margin: 20px;
-}
+  }
 
   .itemc div {
     border: 2px solid white;
@@ -304,20 +301,20 @@ text-align: center;
 
 
   .Itemd div {
-    border: 2px solid white;
-    display: inline-block;
-    margin: 10px;
-    height: 240px;
-   width: 240px;  
-    text-align: center;
-    margin-bottom: 70px;
-    margin-top: 50px;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 10px;
+  height: 240px;
+  width: 240px;  
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
   }
 
   .descripcionproducto{
-    text-align: center;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
 
@@ -327,6 +324,7 @@ text-align: center;
   text-align: center;
   margin-top: 50px;
 }
+
 .historia h3 {
   margin: 20px;
   font-size: 50px;
@@ -340,10 +338,9 @@ text-align: center;
 }
 
 .galeria-img {
-  display: inline-block;
-  
-  width: 350px;
-  height: 350px;
+ display: inline-block;  
+ width: 350px;
+ height: 350px;
   
 
 }
@@ -425,7 +422,6 @@ font-size:25px;
   border: 10px outset greenyellow;
 }
 
-
 @media screen and (max-width: 600px){
  
   .header-general h1 {
@@ -478,7 +474,7 @@ font-size:25px;
   }
 
 
-  /* CONOCENOS */                                                       /* CONOCENOS */
+  /* CONOCENOS */                                                    
 
   .galeria div img {
     border-radius: 15%;
@@ -567,7 +563,7 @@ font-size:25px;
   justify-content: center;
   
 }
-
+/* el tamaño de las fotos no termina de encajar bien en las Box , pero sirven como imagenes de referencia para representar la idea */
 .galeria{
  background-color: black;
  display: grid;
