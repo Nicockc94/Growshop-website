@@ -185,6 +185,7 @@ text-align: center;
     padding-right: 5px;
     padding-left: 5px;
     border: 4px outset #596221 ;
+
     
   
 }
@@ -192,21 +193,26 @@ text-align: center;
   /* Lista de items ,  */
 
 
-  .itema {
+  
+  .productos-a div {
 
-  margin-bottom: 30px;
-  margin-top: 30;
+    background-color: white;
+    width:160px;
+    text-align: center;
+
+
   }
+ .productos-a{
+  display: flex;
+  flex-direction: row;
+  background-color: #596221;
+  justify-content: space-around;
 
-.itema div{
-  border: 2px solid white;
-  display: inline-block;
-  margin: 10px;
-  height: 240px;
-  width: 240px;  
-  text-align: center;
-  margin-bottom: 70px;
-  margin-top: 50px;
+ 
+  flex-direction:
+
+
+
  }
 
 
