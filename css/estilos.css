@@ -185,39 +185,78 @@ text-align: center;
     padding-right: 5px;
     padding-left: 5px;
     border: 4px outset #596221 ;
-
-    
   
 }
 
-  /* Lista de items ,  */
+  /* Lista de items , seran modificados despues de esta entrega , la forma ideal es en forma de cards  */      
 
+  .productos-a-img1 {
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+  .productos-a-img2{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-  
+  .productos-a div img{
+    border-end-start-radius:  20%;
+    border-start-end-radius:  25%;
+    width: 100%;
+  }
   .productos-a div {
-
+    display: flex;
+    row-gap:2px; 
     background-color: white;
     width:160px;
+    justify-content: center;
+    border-end-start-radius:  20%;
+    border-start-end-radius:  20%;
+    border: outset 5px rgb(126,135,53); 
+   }
+  .productos-a{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   }
+
+   /*precios a correjir y unir con los items */
+
+   .caja-precio ul{
+    list-style: none;    
+   }
+   .caja-precio{
+    display:flex;
+    flex-direction: column;
+    border: 5px outset rgb(126,135,53);
+    width: 150px;
+    margin-top: 15px;
+    border-end-end-radius: 20%;
+    border-start-start-radius: 20%;
+    
+   }
+
+   .caja-precio button{
     text-align: center;
-
-
-  }
- .productos-a{
-  display: flex;
-  flex-direction: row;
-  background-color: #596221;
-  justify-content: space-around;
-
+    margin-top: 10px;
+    border-end-end-radius: 20%;
+    border-start-start-radius: 20%;
+    border: 5px outset rgb(126,135,53);
+    padding: 3px;
  
-  flex-direction:
+   }
 
-
-
- }
-
-
-.itemb{
-  
+  .precios h5 {
+    
+    font-size: 15px;
+    text-align: center;
+  }
+  .precios {
+    font-size: 15px;
+    display:flex;
+    justify-content: space-around;
+  }
+.itemb{ 
   margin-bottom: 30px;
   margin-top: 30px;
 }
